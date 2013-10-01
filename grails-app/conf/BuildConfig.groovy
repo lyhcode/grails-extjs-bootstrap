@@ -42,6 +42,9 @@ grails.project.dependency.resolution = {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes e.g.
 
         // runtime 'mysql:mysql-connector-java:5.1.22'
+        
+        compile 'org.apache.ant:ant:1.7.1'    //you can also use runtime
+        compile 'org.apache.ant:ant-launcher:1.7.1'
     }
 
     plugins {
@@ -59,5 +62,8 @@ grails.project.dependency.resolution = {
         runtime ":database-migration:1.3.2"
 
         compile ':cache:1.0.1'
+
+        // Grails Ant Plugin
+        compile ":grails-ant:0.1.3"
     }
 }

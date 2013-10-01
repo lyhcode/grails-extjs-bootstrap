@@ -16,7 +16,7 @@ class ExtJSBootStrap {
                 log.info "Path of WEB-APP directory: ${basepath}"
               
                 // 取得 Ext JS 版本設定
-                def extjs_ver = grailsApplication.config.extjs.version
+                def extjs_ver = grailsApplication.config.extjs?.version?:'4.2.2'
                 log.info "Configuration specified Ext JS version: ${extjs_ver}"
                 
                 // 測試 Ant 是否可用

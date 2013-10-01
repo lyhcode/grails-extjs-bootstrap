@@ -36,6 +36,8 @@
 /web-app/plugins
 /web-app/WEB-INF/classes
 
+/web-app/extjs
+
 # "temporary" build files
 /target
 
