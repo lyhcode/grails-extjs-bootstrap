@@ -11,11 +11,7 @@ grails.project.dependency.resolution = {
         mavenCentral()
     }
 
-    dependencies {
-        // Apache Ant
-        compile 'org.apache.ant:ant:1.7.1'    //you can also use runtime
-        compile 'org.apache.ant:ant-launcher:1.7.1'
-    }
+    dependencies {}
 
     plugins {
         build ':release:2.2.1', ':rest-client-builder:1.0.3', {
