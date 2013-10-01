@@ -70,10 +70,7 @@ class ExtJSBootStrap {
                     // 寫入版本資訊
                     new File(extjs_target, "extjs-release").setText(extjs_ver)
                 }
-
             }
         }
-    }
-    def destroy = {
     }
 }
